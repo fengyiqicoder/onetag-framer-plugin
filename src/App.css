@@ -1,0 +1,93 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 15px 15px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--framer-color-tint);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.status {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: var(--framer-color-bg-tertiary);
+    color: var(--framer-color-text-secondary);
+    line-height: 1.4;
+}
+
+.status .dot {
+    flex: none;
+    width: 6px;
+    height: 6px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background: var(--framer-color-text-tertiary);
+}
+
+.status.on .dot {
+    background: #22c55e;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+    color: var(--framer-color-text-secondary);
+}
+
+.field input,
+.field select {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.color {
+    display: flex;
+    gap: 6px;
+}
+
+.color input[type="color"] {
+    flex: none;
+    width: 30px;
+    padding: 2px;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.hint {
+    color: var(--framer-color-text-tertiary);
+    line-height: 1.4;
+}
+
+.hint.error {
+    color: #ef4444;
+}
