@@ -18,7 +18,7 @@ Paste your free site key, pick a label, color and position, and click "Add to si
 
 - Answers come from your own content, with links back to it.
 - Works on every page, no components to place.
-- Free plan: 1,000,000 tokens a month with a hard cap. No bill can appear.
+- Free plan: 1,000,000 tokens, one time, no monthly reset with a hard cap. No bill can appear.
 - The key is public by design, like an analytics ID.
 
 Get a key at https://onetagai.com/?ref=framer#get-key

@@ -150,7 +150,7 @@ export function App() {
             {!canSetCode && <p className="hint">You need edit rights on this project to change its custom code.</p>}
 
             <p className="hint">
-                The box answers visitor questions from your published pages. The key is public by design. Free plan: 1,000,000 tokens a month, hard cap, no bill.{" "}
+                The box answers visitor questions from your published pages. The key is public by design. Free plan: 1,000,000 tokens, one time, no monthly reset, hard cap, no bill.{" "}
                 <a href={DOCS_URL} target="_blank" rel="noreferrer">
                     Learn more
                 </a>
